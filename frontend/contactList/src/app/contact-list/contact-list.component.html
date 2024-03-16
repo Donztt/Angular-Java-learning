@@ -1,0 +1,20 @@
+<h2>Lista de Contatos</h2>
+
+<div *ngFor="let contato of contatos">
+  <div>
+    <strong>Nome:</strong> {{ contato.nome }}
+  </div>
+  <div>
+    <strong>Número de Telefone:</strong> {{ contato.telefone }}
+  </div>
+  <div>
+    <strong>Email:</strong> {{ contato.email }}
+  </div>
+  <div>
+    <strong>Cargo:</strong> {{ contato.cargo }}
+  </div>
+  <div>
+    <strong>Endereço:</strong> {{ contato.endereco }}
+  </div>
+  <hr>
+</div>
